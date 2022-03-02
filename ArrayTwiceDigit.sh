@@ -4,6 +4,7 @@ i=0
 function digit()
 {
 num=$1
+sum=0
         if [ $num -gt 0 ]
 then
         rem=$(( $num % 10 ))
