@@ -5,7 +5,7 @@ function digit()
 {
 num=$1
 sum=0
-        if [ $num -gt 0 ]
+        if [ $num != 0 ]
 then
         rem=$(( $num % 10 ))
         sum=$(( $sum*10 + $rem ))
